@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>??</title>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+		</script>
+		<script>
+		$(document).ready(function(){
+			$("#hide1").click(function(){
+				$("h5").hide();
+			});
+			$("#hide2").click(function(){
+				$("#second").hide();
+			});
+			$("#hide3").click(function(){
+				$(".third").hide();
+			});
+		});
+		</script>
+	</head>
+
+	<body>
+		<h5>Hide Paragraph1</h5>
+		<p id="second">Hide Paragraph2</p>
+		<p class="third">Hide Paragraph3</p>
+		
+		<button id="hide1">Hide first</button>
+		<button id="hide2">Hide second</button>
+		<button id="hide3">Hide third</button>
+	</body>
+</html>
